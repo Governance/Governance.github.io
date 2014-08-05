@@ -7,13 +7,12 @@ body {
 }
 
 .container {
-  margin-top: 30px;
+  margin: 30px auto;
   background-color: rgb(78, 101, 125);
   padding: 0px;
   border-radius: 8px 8px 8px 8px;
   -webkit-border-radius: 6px 6px 6px 6px;
   border: 1px solid #333;
-  margin-bottom: 20px;
   box-shadow: 3px 3px 8px rgb(68, 68, 68);
 }
 
@@ -25,11 +24,38 @@ body {
 .footer {
   border-top: 1px solid black;
   color: white;
-  padding: 5px;
-  padding-right: 30px;
-  text-align: right;
-  font-size: 18px;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 16px;
   text-shadow: 1px 1px 1px #222;
+}
+
+.footer .row {
+	margin-bottom: 50px;
+}
+
+.footer a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.footer h4 {
+	margin-top: 0;
+}
+
+.footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer .copyright {
+	font-size: 10px;
 }
 
 /* Main marketing message and sign up button */
