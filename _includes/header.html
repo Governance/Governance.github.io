@@ -22,3 +22,30 @@
   <body>
 
     <div class="container">
+      <div class="jumbotron" style="position:relative">
+        <a class="btn btn-lg btn-success" href="https://github.com/Governance/overlord#getting-started-from-source">Get Started Now</a>
+        <a href="https://github.com/Governance/{{ page.subproject }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_red_aa0000.png" alt=""></a>
+      </div>
+
+	  <ul class="nav nav-pills">
+	    {% assign active = nil %}
+        {% if page.url == "/index.html" %}
+          {% assign active = 'active' %}
+        {% endif %}
+        <li class="{{ active }}">
+          <a href="/">Home</a>
+        </li>
+	    
+	    {% for link in site.navigation %}
+	      {% assign active = nil %}
+	      {% if page.url contains link.url %}
+	        {% assign active = 'active' %}
+	      {% endif %}
+	      <li class="{{ active }}">
+	        <a href="{{ link.url }}">{{ link.title }}</a>
+	      </li>
+	    {% endfor %}
+	  </ul>
+
+      <div class="inner">
+        <h1>{{ page.title }}</h1>

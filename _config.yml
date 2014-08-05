@@ -1,0 +1,11 @@
+navigation:
+ - title: S-RAMP
+   url: /s-ramp
+ - title: Design Time Governance
+   url: /dtgov
+ - title: Runtime Governance
+   url: /rtgov
+ - title: Blog
+   url: http://jboss-overlord.blogspot.com
+ - title: Forum
+   url: https://community.jboss.org/en/overlord
