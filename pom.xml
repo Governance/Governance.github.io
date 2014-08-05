@@ -26,7 +26,7 @@
 
   <issueManagement>
     <system>jira</system>
-    <url>https://issues.jboss.org/browse/DTGOV</url>
+    <url>https://issues.jboss.org/browse/Overlord</url>
   </issueManagement>
 
   <scm>
@@ -60,6 +60,15 @@
       <name>Eric Wittmann</name>
       <id>ewittman</id>
       <email>eric.wittmann@redhat.com</email>
+      <organization>Red Hat</organization>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <name>Brett Meyer</name>
+      <id>brmeyer</id>
+      <email>brmeyer@redhat.com</email>
       <organization>Red Hat</organization>
       <roles>
         <role>Developer</role>
