@@ -9,3 +9,5 @@ navigation:
    url: http://jboss-overlord.blogspot.com
  - title: Forum
    url: https://community.jboss.org/en/overlord
+ - title: Chat
+   url: /chat.html
