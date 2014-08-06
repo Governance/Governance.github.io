@@ -90,12 +90,13 @@ h1.page-heading {
 .nav a:hover {
   color: rgb(78, 101, 125); /* Same as container bg */
   background: rgb(218, 218, 218) !important;
+  text-shadow: none;
 }
 
 .nav-pills li.active a, .nav-pills li.active a:hover {
+  color: rgb(78, 101, 125); /* Same as container bg */
   background: rgb(238, 238, 238) !important;
   text-shadow: none;
-  color: rgb(78, 101, 125); /* Same as container bg */
 }
 
 .inner .projects, .inner .features {
@@ -147,19 +148,6 @@ h1.page-heading {
 .inner .community .citem .project-description p {
   line-height: 18px;
   padding: 8px;
-}
-
-.inner .community .minor h3 {
-  color: #888;
-  text-shadow: none;
-}
-
-.inner .community .minor .version {
-  color: #999;
-}
-
-.inner .community .minor p {
-  color: #999;
 }
 
 .footer {
