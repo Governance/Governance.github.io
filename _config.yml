@@ -11,3 +11,5 @@ navigation:
    url: https://community.jboss.org/en/overlord
  - title: Chat
    url: /chat.html
+ - title: CI (Jenkins)
+   url: https://overlord.ci.cloudbees.com/
