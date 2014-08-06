@@ -66,8 +66,8 @@ body {
   border-color: #641f1f #641f1f hsl(360, 52%, 21%);
 }
 
-.jumbotron h1 {
-  font-size: 56px;
+h1.page-heading {
+	display: none;
 }
 
 .nav a {
