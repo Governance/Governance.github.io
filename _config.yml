@@ -5,6 +5,8 @@ navigation:
    url: /dtgov
  - title: Runtime Governance
    url: /rtgov
+ - title: Contribute
+   url: /contribute.html
  - title: Blog
    url: http://jboss-overlord.blogspot.com
  - title: Forum
@@ -12,4 +14,4 @@ navigation:
  - title: Chat
    url: /chat.html
  - title: CI (Jenkins)
-   url: https://overlord.ci.cloudbees.com/
+   url: https://overlord.ci.cloudbees.com
