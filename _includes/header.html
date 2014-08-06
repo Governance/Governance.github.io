@@ -17,6 +17,9 @@
       <script src="/js/html5shiv.js"></script>
       <script src="/js/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/lib/bootstrap-3.1.1/js/bootstrap.js"></script>
   </head>
 
   <body>
@@ -27,7 +30,7 @@
         <a href="https://github.com/Governance/{{ page.subproject }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_red_aa0000.png" alt=""></a>
       </div>
 
-	  <ul class="nav nav-pills">
+	  <ul class="nav nav-tabs">
 	    {% assign active = nil %}
         {% if page.url == "/index.html" %}
           {% assign active = 'active' %}
@@ -36,13 +39,24 @@
           <a href="/">Home</a>
         </li>
 	    
-	    {% for link in site.navigation %}
+	    {% for navElement in site.nav %}
 	      {% assign active = nil %}
-	      {% if page.url contains link.url %}
+	      {% if page.url contains navElement.url %}
 	        {% assign active = 'active' %}
 	      {% endif %}
 	      <li class="{{ active }}">
-	        <a href="{{ link.url }}">{{ link.title }}</a>
+	        {% if navElement.subnav == nil %}
+	          <a href="{{ navElement.url }}">{{ navElement.title }}</a>
+	        {% else %}
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{ navElement.title }} <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            {% for subnavElement in navElement.subnav %}
+	              <li>
+	                <a href="{{ subnavElement.url }}">{{ subnavElement.title }}</a>
+	              </li>
+	            {% endfor %}
+	          </ul>
+	        {% endif %}
 	      </li>
 	    {% endfor %}
 	  </ul>

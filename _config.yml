@@ -1,4 +1,4 @@
-navigation:
+nav:
  - title: S-RAMP
    url: /s-ramp
  - title: Design Time Governance
@@ -7,13 +7,25 @@ navigation:
    url: /rtgov
  - title: API Management
    url: /apiman
- - title: Contribute
-   url: /contribute.html
- - title: Blog
-   url: http://jboss-overlord.blogspot.com
- - title: Forum
-   url: https://community.jboss.org/en/overlord
- - title: Chat
-   url: /chat.html
- - title: CI (Jenkins)
-   url: https://overlord.ci.cloudbees.com
+ - title: Get Involved
+   url: /getinvolved
+   subnav:
+    - title: Contribute
+      url: /community/contribute.html
+    - title: Report a Bug
+      url: https://issues.jboss.org
+    - title: Chat
+      url: /community/chat.html
+    - title: Forum
+      url: https://community.jboss.org/en/overlord
+ - title: Follow Us
+   url: /followus
+   subnav:
+    - title: Blog
+      url: http://jboss-overlord.blogspot.com
+    - title: "@OverlordSRAMP"
+      url: https://twitter.com/OverlordSRAMP
+    - title: "@OverlordDTGov"
+      url: https://twitter.com/OverlordDTGov
+    - title: "@OverlordRTGov"
+      url: https://twitter.com/OverlordRTGov

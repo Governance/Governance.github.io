@@ -75,10 +75,6 @@ h1.page-heading {
   padding-left: 3px;
 }
 
-.nav-pills li a {
-  border-radius: 6px 6px 0px 0px;
-}
-
 .nav a {
   color: #fff;
   font-size: 14px;
@@ -93,7 +89,7 @@ h1.page-heading {
   text-shadow: none;
 }
 
-.nav-pills li.active a, .nav-pills li.active a:hover {
+.nav .active a, .nav .active a:hover, .nav .dropdown-menu a, .nav .dropdown-menu a:hover {
   color: rgb(78, 101, 125); /* Same as container bg */
   background: rgb(238, 238, 238) !important;
   text-shadow: none;
