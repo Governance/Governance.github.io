@@ -75,7 +75,7 @@ h1.page-heading {
   padding-left: 3px;
 }
 
-.nav a {
+.nav li a {
   color: #fff;
   font-size: 14px;
   text-shadow: 1px 1px 1px #222;
@@ -83,16 +83,33 @@ h1.page-heading {
   background: transparent !important;
 }
 
-.nav a:hover {
+.nav li a:hover, .nav li.open a {
   color: rgb(78, 101, 125); /* Same as container bg */
-  background: rgb(218, 218, 218) !important;
+  background: white !important;
   text-shadow: none;
+  border-color: none !important;
 }
 
-.nav .active a, .nav .active a:hover, .nav .dropdown-menu a, .nav .dropdown-menu a:hover {
+.nav li.open a, .nav li.open a:hover, .nav li.open a:focus {
+  border-color: transparent;
+}
+
+.nav li.active a, .nav li.active a:hover {
   color: rgb(78, 101, 125); /* Same as container bg */
   background: rgb(238, 238, 238) !important;
   text-shadow: none;
+}
+
+.nav li ul.dropdown-menu a {
+  background: white !important;
+  color: rgb(78, 101, 125);
+  text-shadow: none;
+  font-weight: normal;
+}
+
+.nav li ul.dropdown-menu a:hover {
+  color: white;
+  background: rgb(78, 101, 125) !important;
 }
 
 .inner .projects, .inner .features {
