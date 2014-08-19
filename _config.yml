@@ -16,8 +16,10 @@ nav:
       url: /getinvolved/bugs.html
     - title: Chat
       url: /getinvolved/chat.html
-    - title: Forum
+    - title: User Forum
       url: https://community.jboss.org/en/overlord
+    - title: Developer Forum
+      url: https://community.jboss.org/en/overlord/dev
  - title: Follow Us
    url: /followus
    subnav:
