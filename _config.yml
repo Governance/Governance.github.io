@@ -13,7 +13,7 @@ nav:
     - title: Contribute
       url: /getinvolved/contribute.html
     - title: Report a Bug
-      url: https://issues.jboss.org
+      url: /getinvolved/bugs.html
     - title: Chat
       url: /getinvolved/chat.html
     - title: Forum
