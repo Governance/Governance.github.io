@@ -11,11 +11,11 @@ nav:
    url: /getinvolved
    subnav:
     - title: Contribute
-      url: /community/contribute.html
+      url: /getinvolved/contribute.html
     - title: Report a Bug
       url: https://issues.jboss.org
     - title: Chat
-      url: /community/chat.html
+      url: /getinvolved/chat.html
     - title: Forum
       url: https://community.jboss.org/en/overlord
  - title: Follow Us
