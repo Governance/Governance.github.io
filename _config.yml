@@ -11,13 +11,15 @@ nav:
    url: /getinvolved
    subnav:
     - title: Contribute
-      url: /community/contribute.html
+      url: /getinvolved/contribute.html
     - title: Report a Bug
-      url: https://issues.jboss.org
+      url: /getinvolved/bugs.html
     - title: Chat
-      url: /community/chat.html
-    - title: Forum
+      url: /getinvolved/chat.html
+    - title: User Forum
       url: https://community.jboss.org/en/overlord
+    - title: Developer Forum
+      url: https://community.jboss.org/en/overlord/dev
  - title: Follow Us
    url: /followus
    subnav:
