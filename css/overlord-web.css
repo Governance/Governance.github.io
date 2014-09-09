@@ -6,6 +6,10 @@ body {
   font: 13px/1.5 'Droid Sans',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
 
+h3 {
+  font-size: 21px;
+}
+
 .container {
   margin: 30px auto;
   background-color: rgb(78, 101, 125);
