@@ -5,3 +5,5 @@
 *.lock
 _site
 *~
+.idea
+*.iml
