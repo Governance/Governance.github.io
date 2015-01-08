@@ -1,6 +1,6 @@
 nav:
  - title: S-RAMP
-   url: /s-ramp
+   url: http://artificer.jboss.org
  - title: Design Time Governance
    url: /dtgov
  - title: Runtime Governance
@@ -24,7 +24,7 @@ nav:
     - title: Blog
       url: http://jboss-overlord.blogspot.com
     - title: "@OverlordSRAMP"
-      url: https://twitter.com/OverlordSRAMP
+      url: https://twitter.com/ArtificerRepo
     - title: "@OverlordDTGov"
       url: https://twitter.com/OverlordDTGov
     - title: "@OverlordRTGov"
