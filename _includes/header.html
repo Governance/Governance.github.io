@@ -17,24 +17,13 @@
       <script src="/js/html5shiv.js"></script>
       <script src="/js/respond.min.js"></script>
     <![endif]-->
-    
+
     <script src="/js/jquery-1.11.1.min.js"></script>
     <script src="/lib/bootstrap-3.1.1/js/bootstrap.js"></script>
   </head>
 
   <body>
-    
-    <script>dataLayer = [{'channel' : 'Overlord'}];</script>
-	<!-- Google Tag Manager -->
-	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NJWS5L"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NJWS5L');</script>
-	<!-- End Google Tag Manager -->
-    
+
     <div class="container">
       <div class="jumbotron" style="position:relative">
         <a class="btn btn-lg btn-success" href="https://github.com/Governance/overlord#getting-started-from-source">Get Started Now</a>
@@ -49,7 +38,7 @@
         <li class="{{ active }}">
           <a href="/">Home</a>
         </li>
-	    
+
 	    {% for navElement in site.nav %}
 	      {% assign active = nil %}
 	      {% if page.url contains navElement.url %}
@@ -73,6 +62,6 @@
 	  </ul>
 
       <div class="inner">
-        
+
         <!-- CSS hides this, but leaving it here for SEO. -->
         <h1 class="page-heading">{{ page.title }}</h1>
